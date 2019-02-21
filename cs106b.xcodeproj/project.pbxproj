@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
-		848BDC91221F5B140009F692 /* censor_string.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = censor_string.rtf; sourceTree = "<group>"; };
+		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				848BDC85221F59590009F692 /* censor_string.cpp */,
-				848BDC91221F5B140009F692 /* censor_string.rtf */,
+				848BDC92221F6FA50009F692 /* censor_string.txt */,
 			);
 			path = "Section Assignment 1";
 			sourceTree = "<group>";
