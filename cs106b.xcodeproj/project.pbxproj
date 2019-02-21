@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848BDC86221F59590009F692 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* main.cpp */; };
+		848BDC86221F59590009F692 /* censor_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* censor_string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
-		848BDC85221F59590009F692 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
+		848BDC91221F5B140009F692 /* censor_string.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = censor_string.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 		848BDC79221F59590009F692 = {
 			isa = PBXGroup;
 			children = (
-				848BDC84221F59590009F692 /* cs106b */,
+				848BDC8F221F59CB0009F692 /* Section Assignment 1 */,
 				848BDC83221F59590009F692 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +55,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		848BDC84221F59590009F692 /* cs106b */ = {
+		848BDC8F221F59CB0009F692 /* Section Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				848BDC85221F59590009F692 /* main.cpp */,
+				848BDC85221F59590009F692 /* censor_string.cpp */,
+				848BDC91221F5B140009F692 /* censor_string.rtf */,
 			);
-			path = cs106b;
+			path = "Section Assignment 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848BDC86221F59590009F692 /* main.cpp in Sources */,
+				848BDC86221F59590009F692 /* censor_string.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
