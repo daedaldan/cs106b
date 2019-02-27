@@ -1,0 +1,2 @@
+Problem 2: Files and Structs
+When we grade your exams, we’re going to keep track of some statistics like the min, max and average scores. Define a struct containing these statistics. Then, write a function that takes a filename, reads the scores from it (one per line where 0 <= score <= 100), and returns the struct you defined. For efficiency’s sake, your function should make only a single pass over the file.
