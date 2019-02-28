@@ -9,15 +9,33 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Count Letters.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Exam Statistics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>cs106b.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8409B63322260F0E001EBB3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8442EB86222761AB008BF7F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -24,7 +24,6 @@ exam_stats calcExamStats(string filename) {
     ifstream examScores(filename.c_str());
     string score;
     while (getline(examScores, score)) {
-        cout << "Score: " << score << endl;
         if (stod(score) > myStats.max) myStats.max = stod(score);
         if (stod(score) < myStats.min) myStats.min = stod(score);
         total += stod(score);
