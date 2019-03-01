@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8409B62B22260BBA001EBB3E /* exam_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8409B62A22260BBA001EBB3E /* exam_statistics.cpp */; };
 		8409B63B22260F86001EBB3E /* exam_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8409B62A22260BBA001EBB3E /* exam_statistics.cpp */; };
 		8409B64722260FA2001EBB3E /* censor_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* censor_string.cpp */; };
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
-		8442EB96222763BF008BF7F9 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -313,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8442EB96222763BF008BF7F9 /* email_msgs.cpp in Sources */,
 				8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8409B62B22260BBA001EBB3E /* exam_statistics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

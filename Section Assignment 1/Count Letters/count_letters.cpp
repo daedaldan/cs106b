@@ -8,13 +8,23 @@ using namespace std;
 
 void CountLetters(string filename) {
     ifstream input(filename.c_str());
-    vector<int> alphaCount(0, 26);
-    // for char in file
-    // if char is in alphabet
-    // alphaCount[char #] += 1
+    vector<int> alphaCount(26, 0);
     
-    // for i in alphaCount
-    // cout << letter << ": " << alphaCount[i] << endl;
+    // reading chars from the file while updating alphaCount
+    if (input.is_open()) {
+        char c;
+        while (input.get(c)) {
+            c = tolower(c);
+            if (c >= 97 && c <= 122) {
+                alphaCount[c-97] += 1;
+            }
+        }
+    }
+    
+    // iterate through alphaCount and print results
+    for (int i = 0; i <= 25; i++) {
+        cout << static_cast<char>(i + 97) << ": " << alphaCount[i] << endl;
+    }
 }
 
 int main() {
