@@ -10,6 +10,7 @@
 		8409B63B22260F86001EBB3E /* exam_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8409B62A22260BBA001EBB3E /* exam_statistics.cpp */; };
 		8409B64722260FA2001EBB3E /* censor_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* censor_string.cpp */; };
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
+		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8442EB85222761AB008BF7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		847A4FEB222DEB27007EE783 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -63,6 +73,7 @@
 		8442EB912227629B008BF7F9 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 		8442EB94222763BF008BF7F9 /* email_msgs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = email_msgs.cpp; sourceTree = "<group>"; };
 		8442EB9722276401008BF7F9 /* email_msgs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = email_msgs.txt; sourceTree = "<group>"; };
+		847A4FED222DEB27007EE783 /* Email Messages */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Email Messages"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
 		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
@@ -84,6 +95,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8442EB84222761AB008BF7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A4FEA222DEB27007EE783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,6 +180,7 @@
 				8409B63422260F0E001EBB3E /* Exam Statistics */,
 				8409B64022260F9A001EBB3E /* Censor String */,
 				8442EB87222761AB008BF7F9 /* Count Letters */,
+				847A4FED222DEB27007EE783 /* Email Messages */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +249,23 @@
 			productReference = 8442EB87222761AB008BF7F9 /* Count Letters */;
 			productType = "com.apple.product-type.tool";
 		};
+		847A4FEC222DEB27007EE783 /* Email Messages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A4FF3222DEB27007EE783 /* Build configuration list for PBXNativeTarget "Email Messages" */;
+			buildPhases = (
+				847A4FE9222DEB27007EE783 /* Sources */,
+				847A4FEA222DEB27007EE783 /* Frameworks */,
+				847A4FEB222DEB27007EE783 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Email Messages";
+			productName = "Email Messages";
+			productReference = 847A4FED222DEB27007EE783 /* Email Messages */;
+			productType = "com.apple.product-type.tool";
+		};
 		848BDC81221F59590009F692 /* cs106b */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848BDC89221F59590009F692 /* Build configuration list for PBXNativeTarget "cs106b" */;
@@ -265,6 +301,9 @@
 					8442EB86222761AB008BF7F9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					847A4FEC222DEB27007EE783 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					848BDC81221F59590009F692 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -286,6 +325,7 @@
 				8409B63322260F0E001EBB3E /* Exam Statistics */,
 				8409B63F22260F9A001EBB3E /* Censor String */,
 				8442EB86222761AB008BF7F9 /* Count Letters */,
+				847A4FEC222DEB27007EE783 /* Email Messages */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +352,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A4FE9222DEB27007EE783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +419,24 @@
 			name = Debug;
 		};
 		8442EB8D222761AB008BF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847A4FF1222DEB27007EE783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847A4FF2222DEB27007EE783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +600,15 @@
 			buildConfigurations = (
 				8442EB8C222761AB008BF7F9 /* Debug */,
 				8442EB8D222761AB008BF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A4FF3222DEB27007EE783 /* Build configuration list for PBXNativeTarget "Email Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A4FF1222DEB27007EE783 /* Debug */,
+				847A4FF2222DEB27007EE783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
