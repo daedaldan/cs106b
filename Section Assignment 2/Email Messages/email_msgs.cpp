@@ -59,15 +59,14 @@ int main() {
     for (int i = 0; i < myEmails.size(); i++) {
         cout << myEmails[i].subject << endl;
     }
+    cout << endl;
     
     removeSpam(myEmails);
     
-    cout << endl;
     cout << "emails after spam removal:" << endl;
     for (int i = 0; i < myEmails.size(); i++) {
         cout << myEmails[i].subject << endl;
     }
-    
     cout << endl;
     
     eMailMsg2 test3;

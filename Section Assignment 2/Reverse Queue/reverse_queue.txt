@@ -1,0 +1,5 @@
+Problem 2: Queues
+Write a function
+void ReverseQueue(Queue<int> & q);
+that reverses the elements in the passed in queue. (Hint: Is there another class that could make doing this a lot easier?)
+
