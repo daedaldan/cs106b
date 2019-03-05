@@ -13,6 +13,7 @@
 		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
 		847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */; };
+		84F7D84F222F2F650049D250 /* most_frequent_character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D842222F2F550049D250 /* most_frequent_character.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		84F7D846222F2F610049D250 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +113,10 @@
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
 		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
+		84F7D842222F2F550049D250 /* most_frequent_character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = most_frequent_character.cpp; sourceTree = "<group>"; };
+		84F7D848222F2F610049D250 /* Most Frequent Character */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Most Frequent Character"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F7D850222F2F760049D250 /* most_frequent_character.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = most_frequent_character.txt; sourceTree = "<group>"; };
+		84F7D851222F30FC0049D250 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +169,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84F7D845222F2F610049D250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -193,6 +214,7 @@
 				8442EB932227639C008BF7F9 /* Email Messages */,
 				847A4FF5222DEED9007EE783 /* Reverse Queue */,
 				847A5005222DF38C007EE783 /* Correctly Nested HTML Tags */,
+				84F7D841222F2F390049D250 /* Most Frequent Character */,
 			);
 			path = "Section Assignment 2";
 			sourceTree = "<group>";
@@ -243,6 +265,7 @@
 				847A4FED222DEB27007EE783 /* Email Messages */,
 				847A4FFC222DEEFB007EE783 /* Reverse Queue */,
 				847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */,
+				84F7D848222F2F610049D250 /* Most Frequent Character */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,6 +278,16 @@
 				8442EB88222761AB008BF7F9 /* Count Letters */,
 			);
 			path = "Section Assignment 1";
+			sourceTree = "<group>";
+		};
+		84F7D841222F2F390049D250 /* Most Frequent Character */ = {
+			isa = PBXGroup;
+			children = (
+				84F7D842222F2F550049D250 /* most_frequent_character.cpp */,
+				84F7D850222F2F760049D250 /* most_frequent_character.txt */,
+				84F7D851222F30FC0049D250 /* test.txt */,
+			);
+			path = "Most Frequent Character";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,6 +412,23 @@
 			productReference = 848BDC82221F59590009F692 /* cs106b */;
 			productType = "com.apple.product-type.tool";
 		};
+		84F7D847222F2F610049D250 /* Most Frequent Character */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F7D84C222F2F610049D250 /* Build configuration list for PBXNativeTarget "Most Frequent Character" */;
+			buildPhases = (
+				84F7D844222F2F610049D250 /* Sources */,
+				84F7D845222F2F610049D250 /* Frameworks */,
+				84F7D846222F2F610049D250 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Most Frequent Character";
+			productName = "Most Frequent Character";
+			productReference = 84F7D848222F2F610049D250 /* Most Frequent Character */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -409,6 +459,9 @@
 					848BDC81221F59590009F692 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					84F7D847222F2F610049D250 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 848BDC7D221F59590009F692 /* Build configuration list for PBXProject "cs106b" */;
@@ -430,6 +483,7 @@
 				847A4FEC222DEB27007EE783 /* Email Messages */,
 				847A4FFB222DEEFB007EE783 /* Reverse Queue */,
 				847A5009222DF3A6007EE783 /* Correctly Nested HTML Tags */,
+				84F7D847222F2F610049D250 /* Most Frequent Character */,
 			);
 		};
 /* End PBXProject section */
@@ -487,6 +541,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F7D844222F2F610049D250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F7D84F222F2F650049D250 /* most_frequent_character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +792,24 @@
 			};
 			name = Release;
 		};
+		84F7D84D222F2F610049D250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F7D84E222F2F610049D250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -801,6 +881,15 @@
 			buildConfigurations = (
 				848BDC8A221F59590009F692 /* Debug */,
 				848BDC8B221F59590009F692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F7D84C222F2F610049D250 /* Build configuration list for PBXNativeTarget "Most Frequent Character" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F7D84D222F2F610049D250 /* Debug */,
+				84F7D84E222F2F610049D250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

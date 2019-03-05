@@ -1,0 +1,4 @@
+Problem 4: Map Warm-up
+Write a function:
+char MostFrequentCharacter(ifstream &if, int &numOccurrences);
+that given an input file stream, returns the character that occurs the most frequently and stores the number of times it occurs in the reference parameter numOccurrences. To write this function, first start by scanning through the file stream, analyzing each character and storing an updated count in a map. Then, after you’ve built this table, iterate over it to find the character that occurred the most often.
