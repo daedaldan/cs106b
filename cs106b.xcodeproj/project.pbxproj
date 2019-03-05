@@ -12,6 +12,7 @@
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
 		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
+		847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		847A5008222DF3A6007EE783 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		848BDC80221F59590009F692 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +97,9 @@
 		847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_queue.cpp; sourceTree = "<group>"; };
 		847A4FFC222DEEFB007EE783 /* Reverse Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Queue"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A5003222DEF0E007EE783 /* reverse_queue.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = reverse_queue.txt; sourceTree = "<group>"; };
+		847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Correctly Nested HTML Tags"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = is_correctly_nested.cpp; sourceTree = "<group>"; };
+		847A5013222DF3CA007EE783 /* is_correctly_nested.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = is_correctly_nested.txt; sourceTree = "<group>"; };
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
 		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
@@ -122,6 +135,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		847A4FF9222DEEFB007EE783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A5007222DF3A6007EE783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,6 +192,7 @@
 			children = (
 				8442EB932227639C008BF7F9 /* Email Messages */,
 				847A4FF5222DEED9007EE783 /* Reverse Queue */,
+				847A5005222DF38C007EE783 /* Correctly Nested HTML Tags */,
 			);
 			path = "Section Assignment 2";
 			sourceTree = "<group>";
@@ -194,6 +215,15 @@
 			path = "Reverse Queue";
 			sourceTree = "<group>";
 		};
+		847A5005222DF38C007EE783 /* Correctly Nested HTML Tags */ = {
+			isa = PBXGroup;
+			children = (
+				847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */,
+				847A5013222DF3CA007EE783 /* is_correctly_nested.txt */,
+			);
+			path = "Correctly Nested HTML Tags";
+			sourceTree = "<group>";
+		};
 		848BDC79221F59590009F692 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +242,7 @@
 				8442EB87222761AB008BF7F9 /* Count Letters */,
 				847A4FED222DEB27007EE783 /* Email Messages */,
 				847A4FFC222DEEFB007EE783 /* Reverse Queue */,
+				847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,6 +345,23 @@
 			productReference = 847A4FFC222DEEFB007EE783 /* Reverse Queue */;
 			productType = "com.apple.product-type.tool";
 		};
+		847A5009222DF3A6007EE783 /* Correctly Nested HTML Tags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A500E222DF3A6007EE783 /* Build configuration list for PBXNativeTarget "Correctly Nested HTML Tags" */;
+			buildPhases = (
+				847A5006222DF3A6007EE783 /* Sources */,
+				847A5007222DF3A6007EE783 /* Frameworks */,
+				847A5008222DF3A6007EE783 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Correctly Nested HTML Tags";
+			productName = "Correctly Nested HTML Tags";
+			productReference = 847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */;
+			productType = "com.apple.product-type.tool";
+		};
 		848BDC81221F59590009F692 /* cs106b */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848BDC89221F59590009F692 /* Build configuration list for PBXNativeTarget "cs106b" */;
@@ -355,6 +403,9 @@
 					847A4FFB222DEEFB007EE783 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					847A5009222DF3A6007EE783 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					848BDC81221F59590009F692 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -378,6 +429,7 @@
 				8442EB86222761AB008BF7F9 /* Count Letters */,
 				847A4FEC222DEB27007EE783 /* Email Messages */,
 				847A4FFB222DEEFB007EE783 /* Reverse Queue */,
+				847A5009222DF3A6007EE783 /* Correctly Nested HTML Tags */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +472,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A5006222DF3A6007EE783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +575,24 @@
 			name = Debug;
 		};
 		847A5002222DEEFB007EE783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847A500F222DF3A6007EE783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847A5010222DF3A6007EE783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -696,6 +774,15 @@
 			buildConfigurations = (
 				847A5001222DEEFB007EE783 /* Debug */,
 				847A5002222DEEFB007EE783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A500E222DF3A6007EE783 /* Build configuration list for PBXNativeTarget "Correctly Nested HTML Tags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A500F222DF3A6007EE783 /* Debug */,
+				847A5010222DF3A6007EE783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

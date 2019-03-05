@@ -1,0 +1,8 @@
+Problem 3: Using the Scanner and Stack classes
+<html><b><i>CS106 rules!</i></b></html>
+Web browsers use stacks to track html tags such as <b>, <i> or <html>. Every html tag must be matched by an equivalent closing tag -- </b>, </i> or </html>. Mozilla is looking for programmers to help implement this feature in the next version of Firefox and you, armed with your newly acquired knowledge of classes, decide to volunteer for the job. Using the Scanner class and the Stack class, write the following function:
+bool IsCorrectlyNested(string htmlStr);
+
+You can assume that all the tags in the html string will be correctly formed. That is, once you see an angle bracket, it will be followed by the remainder of a complete and well- formed tag (So, nothing like “<<html>”).
+
+* Note: the C++ STL does not have a Scanner class like the Stanford C++ Library, so I will simply be using basic operations to solve this problem. *
