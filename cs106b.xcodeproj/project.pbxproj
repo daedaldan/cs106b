@@ -13,6 +13,7 @@
 		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
 		847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */; };
+		84876D4B222F3693008C67AD /* minesweeper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84876D4A222F3693008C67AD /* minesweeper.cpp */; };
 		84F7D84F222F2F650049D250 /* most_frequent_character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D842222F2F550049D250 /* most_frequent_character.cpp */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		84876D41222F3680008C67AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		848BDC80221F59590009F692 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,6 +120,9 @@
 		847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Correctly Nested HTML Tags"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = is_correctly_nested.cpp; sourceTree = "<group>"; };
 		847A5013222DF3CA007EE783 /* is_correctly_nested.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = is_correctly_nested.txt; sourceTree = "<group>"; };
+		84876D43222F3680008C67AD /* Minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
+		84876D4A222F3693008C67AD /* minesweeper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minesweeper.cpp; sourceTree = "<group>"; };
+		84876D4C222F36A2008C67AD /* minesweeper.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = minesweeper.txt; sourceTree = "<group>"; };
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
 		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
@@ -156,6 +169,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		847A5007222DF3A6007EE783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84876D40222F3680008C67AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,6 +235,7 @@
 				847A4FF5222DEED9007EE783 /* Reverse Queue */,
 				847A5005222DF38C007EE783 /* Correctly Nested HTML Tags */,
 				84F7D841222F2F390049D250 /* Most Frequent Character */,
+				84876D3E222F3669008C67AD /* Minesweeper */,
 			);
 			path = "Section Assignment 2";
 			sourceTree = "<group>";
@@ -246,6 +267,15 @@
 			path = "Correctly Nested HTML Tags";
 			sourceTree = "<group>";
 		};
+		84876D3E222F3669008C67AD /* Minesweeper */ = {
+			isa = PBXGroup;
+			children = (
+				84876D4A222F3693008C67AD /* minesweeper.cpp */,
+				84876D4C222F36A2008C67AD /* minesweeper.txt */,
+			);
+			path = Minesweeper;
+			sourceTree = "<group>";
+		};
 		848BDC79221F59590009F692 = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +296,7 @@
 				847A4FFC222DEEFB007EE783 /* Reverse Queue */,
 				847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */,
 				84F7D848222F2F610049D250 /* Most Frequent Character */,
+				84876D43222F3680008C67AD /* Minesweeper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,6 +426,23 @@
 			productReference = 847A500A222DF3A6007EE783 /* Correctly Nested HTML Tags */;
 			productType = "com.apple.product-type.tool";
 		};
+		84876D42222F3680008C67AD /* Minesweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84876D47222F3680008C67AD /* Build configuration list for PBXNativeTarget "Minesweeper" */;
+			buildPhases = (
+				84876D3F222F3680008C67AD /* Sources */,
+				84876D40222F3680008C67AD /* Frameworks */,
+				84876D41222F3680008C67AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minesweeper;
+			productName = Minesweeper;
+			productReference = 84876D43222F3680008C67AD /* Minesweeper */;
+			productType = "com.apple.product-type.tool";
+		};
 		848BDC81221F59590009F692 /* cs106b */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848BDC89221F59590009F692 /* Build configuration list for PBXNativeTarget "cs106b" */;
@@ -456,6 +504,9 @@
 					847A5009222DF3A6007EE783 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					84876D42222F3680008C67AD = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					848BDC81221F59590009F692 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -484,6 +535,7 @@
 				847A4FFB222DEEFB007EE783 /* Reverse Queue */,
 				847A5009222DF3A6007EE783 /* Correctly Nested HTML Tags */,
 				84F7D847222F2F610049D250 /* Most Frequent Character */,
+				84876D42222F3680008C67AD /* Minesweeper */,
 			);
 		};
 /* End PBXProject section */
@@ -534,6 +586,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84876D3F222F3680008C67AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84876D4B222F3693008C67AD /* minesweeper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +715,24 @@
 			name = Debug;
 		};
 		847A5010222DF3A6007EE783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84876D48222F3680008C67AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84876D49222F3680008C67AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -863,6 +941,15 @@
 			buildConfigurations = (
 				847A500F222DF3A6007EE783 /* Debug */,
 				847A5010222DF3A6007EE783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84876D47222F3680008C67AD /* Build configuration list for PBXNativeTarget "Minesweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84876D48222F3680008C67AD /* Debug */,
+				84876D49222F3680008C67AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

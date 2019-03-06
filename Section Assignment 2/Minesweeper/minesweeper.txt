@@ -1,0 +1,7 @@
+Problem 5: Minesweeper
+In the game of Minesweeper, a player searches for hidden bombs on a rectangular grid. The game board is represented by a grid of booleans marking bomb locations. A grid value is true if there is bomb at that location, false otherwise.
+Given such a grid of bomb locations, the function MakeGridOfCounts constructs a new grid of integers storing the count of bombs in each neighborhood. The neighborhood for a location includes the location itself and its eight adjacent locations. In the returned grid, each value will be a number from 0 to 9. 
+The function is passed the grid by reference, and returns an int grid created as described.
+Grid<int> MakeGridOfCounts(Grid<bool> & bombLocations)
+
+* Note: the C++ STL does not appear to have a Grid class like the Stanford C++ Library, so I will simply be using 2D vectors to solve this problem. *

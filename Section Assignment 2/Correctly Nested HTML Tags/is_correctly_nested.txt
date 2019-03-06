@@ -5,4 +5,4 @@ bool IsCorrectlyNested(string htmlStr);
 
 You can assume that all the tags in the html string will be correctly formed. That is, once you see an angle bracket, it will be followed by the remainder of a complete and well- formed tag (So, nothing like “<<html>”).
 
-* Note: the C++ STL does not have a Scanner class like the Stanford C++ Library, so I will simply be using basic operations to solve this problem. *
+* Note: the C++ STL does not appear to have a Scanner class like the Stanford C++ Library, so I will simply be using basic operations to solve this problem. *
