@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Set Comparison Callback.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>cs106b.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

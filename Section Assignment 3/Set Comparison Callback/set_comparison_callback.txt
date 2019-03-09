@@ -1,0 +1,8 @@
+Problem 1: Set Callbacks
+1. When using a Set to store user-defined types, it is the client's responsibility to write the appropriate comparison callback and pass that function to the Set constructor. The comparison callback also allows the client to customize how entries are compared (and thus control the order they are returned by the iterator) as well as determining which entries will be coalesced as duplicates.
+a) You're building an address book and plan on using a Set to store the entries. Each entry is represented by this structure:
+struct entryT { string firstName; string lastName; string phoneNumber;
+};
+Write a comparison callback that compares entries using last name as the primary key and first name as the secondary key. Show the necessary declaration for creating a Set of entryT using this callback.
+Given the above setup, what happens if you have two friends with the same first and last name?
+b) You plan on using a Set to store a collection of strings. You wish to treat "Word" and "word" as the same element The default comparison function for Set works on strings, but it compares case-sensitively. Write a comparison callback that instead compares strings without regard to case and use it to declare a Set of string which operates case- insensitively.
