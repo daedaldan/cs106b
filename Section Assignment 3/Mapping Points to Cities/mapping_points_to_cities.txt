@@ -1,0 +1,13 @@
+Problem 2: Maps
+You are writing a program to manipulate a geographic map of major world cities. You have a list of city names and their coordinates. When a user clicks on a point, you want to report what city is there. To efficiently support this operation, you plan to use a Map to associate a pointT with the name of the city at that point. However, Maps require that the keys be of string type. Brainstorm a way to resolve this apparent incompatibility and complete the code started below to load the Map with city data.
+struct pointT {
+int x, y;
+};
+struct cityT {
+string name;
+pointT coordinates;
+};
+Vector<cityT> cities = ...
+// complete from here to show loading Map with city data
+
+* Note: I will skip this problem because in the latest version of C++, as of March 2019, maps can support a variety of key types, which makes this problem irrelevant. *

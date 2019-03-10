@@ -15,6 +15,7 @@
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
 		847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */; };
 		84876D4B222F3693008C67AD /* minesweeper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84876D4A222F3693008C67AD /* minesweeper.cpp */; };
+		84E8B4172235B77500DDBD89 /* cartesian_products.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B40B2235B76500DDBD89 /* cartesian_products.cpp */; };
 		84F7D84F222F2F650049D250 /* most_frequent_character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D842222F2F550049D250 /* most_frequent_character.cpp */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		84E8B40E2235B76E00DDBD89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		84F7D846222F2F610049D250 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +130,7 @@
 		841D4B9222341D48009B4D5B /* set_comparison_callback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = set_comparison_callback.cpp; sourceTree = "<group>"; };
 		841D4B9722341D53009B4D5B /* Set Comparison Callback */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Set Comparison Callback"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841D4B9F22341D97009B4D5B /* set_comparison_callback.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = set_comparison_callback.txt; sourceTree = "<group>"; };
+		841D4BA122342B53009B4D5B /* mapping_points_to_cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapping_points_to_cities.txt; sourceTree = "<group>"; };
 		8442EB87222761AB008BF7F9 /* Count Letters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Count Letters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442EB89222761AB008BF7F9 /* count_letters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count_letters.cpp; sourceTree = "<group>"; };
 		8442EB902227621C008BF7F9 /* count_letters.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = count_letters.txt; sourceTree = "<group>"; };
@@ -139,6 +150,9 @@
 		848BDC82221F59590009F692 /* cs106b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs106b; sourceTree = BUILT_PRODUCTS_DIR; };
 		848BDC85221F59590009F692 /* censor_string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = censor_string.cpp; sourceTree = "<group>"; };
 		848BDC92221F6FA50009F692 /* censor_string.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = censor_string.txt; sourceTree = "<group>"; };
+		84E8B40B2235B76500DDBD89 /* cartesian_products.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cartesian_products.cpp; sourceTree = "<group>"; };
+		84E8B4102235B76E00DDBD89 /* Cartesian Products */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cartesian Products"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8B4182235B78800DDBD89 /* cartesian_products.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cartesian_products.txt; sourceTree = "<group>"; };
 		84F7D842222F2F550049D250 /* most_frequent_character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = most_frequent_character.cpp; sourceTree = "<group>"; };
 		84F7D848222F2F610049D250 /* Most Frequent Character */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Most Frequent Character"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F7D850222F2F760049D250 /* most_frequent_character.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = most_frequent_character.txt; sourceTree = "<group>"; };
@@ -209,6 +223,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84E8B40D2235B76E00DDBD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84F7D845222F2F610049D250 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				841D4B9122341CF2009B4D5B /* Set Comparison Callback */,
+				841D4BA022342B34009B4D5B /* Mapping Points to Cities */,
+				84E8B40A2235B73C00DDBD89 /* Cartesian Products */,
 			);
 			path = "Section Assignment 3";
 			sourceTree = "<group>";
@@ -253,6 +276,14 @@
 				841D4B9F22341D97009B4D5B /* set_comparison_callback.txt */,
 			);
 			path = "Set Comparison Callback";
+			sourceTree = "<group>";
+		};
+		841D4BA022342B34009B4D5B /* Mapping Points to Cities */ = {
+			isa = PBXGroup;
+			children = (
+				841D4BA122342B53009B4D5B /* mapping_points_to_cities.txt */,
+			);
+			path = "Mapping Points to Cities";
 			sourceTree = "<group>";
 		};
 		8442EB88222761AB008BF7F9 /* Count Letters */ = {
@@ -336,6 +367,7 @@
 				84F7D848222F2F610049D250 /* Most Frequent Character */,
 				84876D43222F3680008C67AD /* Minesweeper */,
 				841D4B9722341D53009B4D5B /* Set Comparison Callback */,
+				84E8B4102235B76E00DDBD89 /* Cartesian Products */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,6 +380,15 @@
 				8442EB88222761AB008BF7F9 /* Count Letters */,
 			);
 			path = "Section Assignment 1";
+			sourceTree = "<group>";
+		};
+		84E8B40A2235B73C00DDBD89 /* Cartesian Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E8B40B2235B76500DDBD89 /* cartesian_products.cpp */,
+				84E8B4182235B78800DDBD89 /* cartesian_products.txt */,
+			);
+			path = "Cartesian Products";
 			sourceTree = "<group>";
 		};
 		84F7D841222F2F390049D250 /* Most Frequent Character */ = {
@@ -516,6 +557,23 @@
 			productReference = 848BDC82221F59590009F692 /* cs106b */;
 			productType = "com.apple.product-type.tool";
 		};
+		84E8B40F2235B76E00DDBD89 /* Cartesian Products */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E8B4142235B76E00DDBD89 /* Build configuration list for PBXNativeTarget "Cartesian Products" */;
+			buildPhases = (
+				84E8B40C2235B76E00DDBD89 /* Sources */,
+				84E8B40D2235B76E00DDBD89 /* Frameworks */,
+				84E8B40E2235B76E00DDBD89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cartesian Products";
+			productName = "Cartesian Products";
+			productReference = 84E8B4102235B76E00DDBD89 /* Cartesian Products */;
+			productType = "com.apple.product-type.tool";
+		};
 		84F7D847222F2F610049D250 /* Most Frequent Character */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F7D84C222F2F610049D250 /* Build configuration list for PBXNativeTarget "Most Frequent Character" */;
@@ -569,6 +627,9 @@
 					848BDC81221F59590009F692 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					84E8B40F2235B76E00DDBD89 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					84F7D847222F2F610049D250 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -596,6 +657,7 @@
 				84F7D847222F2F610049D250 /* Most Frequent Character */,
 				84876D42222F3680008C67AD /* Minesweeper */,
 				841D4B9622341D53009B4D5B /* Set Comparison Callback */,
+				84E8B40F2235B76E00DDBD89 /* Cartesian Products */,
 			);
 		};
 /* End PBXProject section */
@@ -669,6 +731,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8B40C2235B76E00DDBD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8B4172235B77500DDBD89 /* cartesian_products.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,6 +1026,24 @@
 			};
 			name = Release;
 		};
+		84E8B4152235B76E00DDBD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E8B4162235B76E00DDBD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		84F7D84D222F2F610049D250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1063,6 +1151,15 @@
 			buildConfigurations = (
 				848BDC8A221F59590009F692 /* Debug */,
 				848BDC8B221F59590009F692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E8B4142235B76E00DDBD89 /* Build configuration list for PBXNativeTarget "Cartesian Products" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8B4152235B76E00DDBD89 /* Debug */,
+				84E8B4162235B76E00DDBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

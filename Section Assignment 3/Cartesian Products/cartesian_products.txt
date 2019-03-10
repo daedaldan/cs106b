@@ -1,0 +1,12 @@
+Problem 3: Cartesian Products
+The French mathematician Rene Descartes invented the notion of a “Cartesian product” of sets, defined as follows:
+Let A and B be sets. The Cartesian product of A and B, is the set of all pairs (a, b) where a is a member of set A and b is a member of set B. The pair (a, b) is called an ordered pair, and will be defined in our solution by the following struct:
+struct pairT
+{
+string first, second;
+};
+Write a function to compute the cartesian product of two sets of strings sets:
+Set<pairT> CartesianProduct(Set<string> & one, Set<string> & two);
+For example, the Cartesian Product of {"A", "B", "C"} and {"X", "Y"} is: {("A", "X"), ("A", "Y"), ("B", "X"), ("B", "Y"), ("C", "X"), ("C",
+"Y")}
+You will also need to write an appropriatePairCmpFnthat compares twopairTs.
