@@ -1,0 +1,4 @@
+Problem 5: ReverseString
+Given a string, create a function ReverseString that returns the string in reverse order. Consider both recursive and iterative techniques for solving this problem. Which one is easier to come up with?
+string ReverseString(string str);
+

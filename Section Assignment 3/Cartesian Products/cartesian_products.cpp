@@ -9,13 +9,12 @@ struct pairT {
     string first, second;
 };
 
-auto pairCmpFn = [] (pairT a, pairT b) { return a.first < b.first; };
+auto pairCmpFn = [] (pairT a, pairT b) { return (a.first + a.second) < (b.first + b.second); };
 
 set<pairT, decltype(pairCmpFn)> cartesianProduct(set<string> & one, set<string> & two) {
     set<pairT, decltype(pairCmpFn)> cartesianProducts(pairCmpFn);
     for (string s1 : one) {
         for (string s2 : two) {
-            cout << s1 << " " << s2 << endl;
             pairT product;
             product.first = s1;
             product.second = s2;
