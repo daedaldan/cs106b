@@ -10,7 +10,7 @@ bool isMeasurable(int target, vector<int> & weights) {
 }
 
 int main() {
-    vector<int>
+    vector<int> test1;
     
     return 0;
 }
