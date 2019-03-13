@@ -7,7 +7,7 @@
 		<key>Cannonballs.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Cartesian Products.xcscheme_^#shared#^_</key>
 		<dict>
@@ -42,7 +42,7 @@
 		<key>Greatest Common Divisor.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Minesweeper.xcscheme_^#shared#^_</key>
 		<dict>
@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Old Fashioned Measuring.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>Reverse Queue.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -62,7 +67,7 @@
 		<key>Reverse String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Set Comparison Callback.xcscheme_^#shared#^_</key>
 		<dict>

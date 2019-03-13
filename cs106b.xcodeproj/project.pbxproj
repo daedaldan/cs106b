@@ -11,6 +11,7 @@
 		8409B64722260FA2001EBB3E /* censor_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* censor_string.cpp */; };
 		841D4B9E22341D59009B4D5B /* set_comparison_callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841D4B9222341D48009B4D5B /* set_comparison_callback.cpp */; };
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
+		84639D5922399363002D53D8 /* old_fashioned_measuring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */; };
 		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
 		847A5012222DF3BD007EE783 /* is_correctly_nested.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A5011222DF3BD007EE783 /* is_correctly_nested.cpp */; };
@@ -51,6 +52,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8442EB85222761AB008BF7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		84639D502239935D002D53D8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -167,6 +177,9 @@
 		8442EB912227629B008BF7F9 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 		8442EB94222763BF008BF7F9 /* email_msgs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = email_msgs.cpp; sourceTree = "<group>"; };
 		8442EB9722276401008BF7F9 /* email_msgs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = email_msgs.txt; sourceTree = "<group>"; };
+		84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = old_fashioned_measuring.cpp; sourceTree = "<group>"; };
+		84639D522239935D002D53D8 /* Old Fashioned Measuring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Old Fashioned Measuring"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84639D5A22399374002D53D8 /* old_fashioned_measuring.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = old_fashioned_measuring.txt; sourceTree = "<group>"; };
 		847A4FED222DEB27007EE783 /* Email Messages */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Email Messages"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_queue.cpp; sourceTree = "<group>"; };
 		847A4FFC222DEEFB007EE783 /* Reverse Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Queue"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,6 +234,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8442EB84222761AB008BF7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84639D4F2239935D002D53D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,6 +348,7 @@
 				84F55C842236FF320021E16E /* Cannonballs */,
 				84F55C852236FF3A0021E16E /* Reverse String */,
 				84F55C862236FF490021E16E /* Greatest Common Divisor */,
+				84639D4C22399338002D53D8 /* Old Fashioned Measuring */,
 			);
 			path = "Section Assignment 3";
 			sourceTree = "<group>";
@@ -378,6 +399,15 @@
 				8442EB9722276401008BF7F9 /* email_msgs.txt */,
 			);
 			path = "Email Messages";
+			sourceTree = "<group>";
+		};
+		84639D4C22399338002D53D8 /* Old Fashioned Measuring */ = {
+			isa = PBXGroup;
+			children = (
+				84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */,
+				84639D5A22399374002D53D8 /* old_fashioned_measuring.txt */,
+			);
+			path = "Old Fashioned Measuring";
 			sourceTree = "<group>";
 		};
 		847A4FF5222DEED9007EE783 /* Reverse Queue */ = {
@@ -434,6 +464,7 @@
 				84F55C8B2236FF620021E16E /* Greatest Common Divisor */,
 				84F55C962236FF6D0021E16E /* Reverse String */,
 				84F55CA12236FF770021E16E /* Cannonballs */,
+				84639D522239935D002D53D8 /* Old Fashioned Measuring */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -563,6 +594,23 @@
 			name = "Count Letters";
 			productName = "Count Letters";
 			productReference = 8442EB87222761AB008BF7F9 /* Count Letters */;
+			productType = "com.apple.product-type.tool";
+		};
+		84639D512239935D002D53D8 /* Old Fashioned Measuring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84639D562239935D002D53D8 /* Build configuration list for PBXNativeTarget "Old Fashioned Measuring" */;
+			buildPhases = (
+				84639D4E2239935D002D53D8 /* Sources */,
+				84639D4F2239935D002D53D8 /* Frameworks */,
+				84639D502239935D002D53D8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Old Fashioned Measuring";
+			productName = "Old Fashioned Measuring";
+			productReference = 84639D522239935D002D53D8 /* Old Fashioned Measuring */;
 			productType = "com.apple.product-type.tool";
 		};
 		847A4FEC222DEB27007EE783 /* Email Messages */ = {
@@ -756,6 +804,9 @@
 					8442EB86222761AB008BF7F9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					84639D512239935D002D53D8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					847A4FEC222DEB27007EE783 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -814,6 +865,7 @@
 				84F55C8A2236FF620021E16E /* Greatest Common Divisor */,
 				84F55C952236FF6D0021E16E /* Reverse String */,
 				84F55CA02236FF770021E16E /* Cannonballs */,
+				84639D512239935D002D53D8 /* Old Fashioned Measuring */,
 			);
 		};
 /* End PBXProject section */
@@ -848,6 +900,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84639D4E2239935D002D53D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84639D5922399363002D53D8 /* old_fashioned_measuring.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,6 +1057,24 @@
 			name = Debug;
 		};
 		8442EB8D222761AB008BF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84639D572239935D002D53D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84639D582239935D002D53D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1331,6 +1409,15 @@
 			buildConfigurations = (
 				8442EB8C222761AB008BF7F9 /* Debug */,
 				8442EB8D222761AB008BF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84639D562239935D002D53D8 /* Build configuration list for PBXNativeTarget "Old Fashioned Measuring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84639D572239935D002D53D8 /* Debug */,
+				84639D582239935D002D53D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
