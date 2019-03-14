@@ -2,22 +2,21 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 bool isMeasurableHelper(int target, vector<int> weights, int left, int right) {
-    cout << left << ", " << right << endl;
     if (left == right)
         return true;
     
     for (int i = 0; i < weights.size(); i++) {
         int currentWeight = weights[i];
-        cout << "Current weight is: " << currentWeight << endl;
         vector<int>::iterator it = find(weights.begin(), weights.end(), weights[i]);
         weights.erase(it);
         if (isMeasurableHelper(target, weights, left, right)) return true;
-        if (isMeasurableHelper(target, weights, left += currentWeight, right)) return true;
-        if (isMeasurableHelper(target, weights, left, right += currentWeight)) return true;
+        if (isMeasurableHelper(target, weights, left + currentWeight, right)) return true;
+        if (isMeasurableHelper(target, weights, left, right + currentWeight)) return true;
         weights.insert(it, currentWeight);
         }
     
@@ -29,14 +28,33 @@ bool isMeasurable(int target, vector<int> & weights) {
 }
 
 int main() {
-    vector<int> test1;
-    test1.push_back(1);
-    test1.push_back(3);
+    vector<int> testWeights;
+    testWeights.push_back(1);
+    testWeights.push_back(3);
     
-    if (isMeasurable(2, test1))
-        cout << "True" << endl;
+    // printing results of test 1
+    int testNum1 = 2;
+    if (isMeasurable(testNum1, testWeights))
+        cout << testNum1 << " can be measured with the weights: " << endl;
     else
-        cout << "False" << endl;
+        cout << testNum1 << " cannot be measured with the weights: " << endl;
+    
+    for (int i = 0; i < testWeights.size(); i++) {
+        cout << testWeights[i] << endl;
+    }
+    
+    cout << endl;
+    
+    // printing results of test 2
+    int testNum2 = 5;
+    if (isMeasurable(testNum2, testWeights))
+        cout << testNum2 << " can be measured with the weights: " << endl;
+    else
+        cout << testNum2 << " cannot be measured with the weights: " << endl;
+    
+    for (int i = 0; i < testWeights.size(); i++) {
+        cout << testWeights[i] << endl;
+    }
     
     return 0;
 }
