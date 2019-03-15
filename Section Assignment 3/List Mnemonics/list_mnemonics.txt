@@ -1,0 +1,9 @@
+Problem 8: List Mnemonics
+On the standard Touch-ToneTM telephone dial, the digits are mapped onto the alphabet (minus the letters Q and Z) as shown in the diagram below:
+In order to make their phone numbers more memorable, service providers like to find numbers that spell out some word (called a mnemonic) appropriate to their business that makes that phone number easier to remember. For example, the phone number for a recorded time-of-day message in some localities is 637-8687 (NERVOUS).
+Imagine that you have just been hired by a local telephone company to write a function ListMnemonics that will generate all possible letter combinations that correspond to a given number, represented as a string of digits. For example, if you call ListMnemonics("723") your program should generate the following 27 possible letter combinations that correspond to that prefix:
+PAD PBD PCD RAD RBD RCD SAD SBD SCD
+PAE PBE PCE RAE RBE RCE SAE SBE SCE
+PAF PBF PCF RAF RBF RCF SAF SBF SCF
+The function declaration is listed below:
+void ListMnemonics(string str);

@@ -11,6 +11,7 @@
 		8409B64722260FA2001EBB3E /* censor_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC85221F59590009F692 /* censor_string.cpp */; };
 		841D4B9E22341D59009B4D5B /* set_comparison_callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841D4B9222341D48009B4D5B /* set_comparison_callback.cpp */; };
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
+		8458530D223C2FCC0039DC02 /* list_mnemonics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84585300223C2F2D0039DC02 /* list_mnemonics.cpp */; };
 		84639D5922399363002D53D8 /* old_fashioned_measuring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */; };
 		847A4FF4222DEB2A007EE783 /* email_msgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB94222763BF008BF7F9 /* email_msgs.cpp */; };
 		847A5004222DEF11007EE783 /* reverse_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847A4FF6222DEEF0007EE783 /* reverse_queue.cpp */; };
@@ -52,6 +53,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8442EB85222761AB008BF7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		84585304223C2FCA0039DC02 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -177,6 +187,9 @@
 		8442EB912227629B008BF7F9 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 		8442EB94222763BF008BF7F9 /* email_msgs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = email_msgs.cpp; sourceTree = "<group>"; };
 		8442EB9722276401008BF7F9 /* email_msgs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = email_msgs.txt; sourceTree = "<group>"; };
+		84585300223C2F2D0039DC02 /* list_mnemonics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_mnemonics.cpp; sourceTree = "<group>"; };
+		84585301223C2F390039DC02 /* list_mnemonics.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = list_mnemonics.txt; sourceTree = "<group>"; };
+		84585306223C2FCA0039DC02 /* List Mnemonics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "List Mnemonics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = old_fashioned_measuring.cpp; sourceTree = "<group>"; };
 		84639D522239935D002D53D8 /* Old Fashioned Measuring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Old Fashioned Measuring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84639D5A22399374002D53D8 /* old_fashioned_measuring.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = old_fashioned_measuring.txt; sourceTree = "<group>"; };
@@ -234,6 +247,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8442EB84222761AB008BF7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84585303223C2FCA0039DC02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,6 +369,7 @@
 				84F55C852236FF3A0021E16E /* Reverse String */,
 				84F55C862236FF490021E16E /* Greatest Common Divisor */,
 				84639D4C22399338002D53D8 /* Old Fashioned Measuring */,
+				845852FF223C2F070039DC02 /* List Mnemonics */,
 			);
 			path = "Section Assignment 3";
 			sourceTree = "<group>";
@@ -399,6 +420,15 @@
 				8442EB9722276401008BF7F9 /* email_msgs.txt */,
 			);
 			path = "Email Messages";
+			sourceTree = "<group>";
+		};
+		845852FF223C2F070039DC02 /* List Mnemonics */ = {
+			isa = PBXGroup;
+			children = (
+				84585300223C2F2D0039DC02 /* list_mnemonics.cpp */,
+				84585301223C2F390039DC02 /* list_mnemonics.txt */,
+			);
+			path = "List Mnemonics";
 			sourceTree = "<group>";
 		};
 		84639D4C22399338002D53D8 /* Old Fashioned Measuring */ = {
@@ -465,6 +495,7 @@
 				84F55C962236FF6D0021E16E /* Reverse String */,
 				84F55CA12236FF770021E16E /* Cannonballs */,
 				84639D522239935D002D53D8 /* Old Fashioned Measuring */,
+				84585306223C2FCA0039DC02 /* List Mnemonics */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -594,6 +625,23 @@
 			name = "Count Letters";
 			productName = "Count Letters";
 			productReference = 8442EB87222761AB008BF7F9 /* Count Letters */;
+			productType = "com.apple.product-type.tool";
+		};
+		84585305223C2FCA0039DC02 /* List Mnemonics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8458530A223C2FCA0039DC02 /* Build configuration list for PBXNativeTarget "List Mnemonics" */;
+			buildPhases = (
+				84585302223C2FCA0039DC02 /* Sources */,
+				84585303223C2FCA0039DC02 /* Frameworks */,
+				84585304223C2FCA0039DC02 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "List Mnemonics";
+			productName = "List Mnemonics";
+			productReference = 84585306223C2FCA0039DC02 /* List Mnemonics */;
 			productType = "com.apple.product-type.tool";
 		};
 		84639D512239935D002D53D8 /* Old Fashioned Measuring */ = {
@@ -804,6 +852,9 @@
 					8442EB86222761AB008BF7F9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					84585305223C2FCA0039DC02 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					84639D512239935D002D53D8 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -866,6 +917,7 @@
 				84F55C952236FF6D0021E16E /* Reverse String */,
 				84F55CA02236FF770021E16E /* Cannonballs */,
 				84639D512239935D002D53D8 /* Old Fashioned Measuring */,
+				84585305223C2FCA0039DC02 /* List Mnemonics */,
 			);
 		};
 /* End PBXProject section */
@@ -900,6 +952,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84585302223C2FCA0039DC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458530D223C2FCC0039DC02 /* list_mnemonics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,6 +1117,24 @@
 			name = Debug;
 		};
 		8442EB8D222761AB008BF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8458530B223C2FCA0039DC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8458530C223C2FCA0039DC02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1409,6 +1487,15 @@
 			buildConfigurations = (
 				8442EB8C222761AB008BF7F9 /* Debug */,
 				8442EB8D222761AB008BF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8458530A223C2FCA0039DC02 /* Build configuration list for PBXNativeTarget "List Mnemonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8458530B223C2FCA0039DC02 /* Debug */,
+				8458530C223C2FCA0039DC02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
