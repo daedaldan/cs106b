@@ -1,6 +1,8 @@
 // CS106B: Programming Abstractions Assignment 4 Problem 1
 
 #include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -25,9 +27,9 @@ void printScreen(vector<vector<pixelStateT>> & screen) {
 	for (int i = 0; i < screen.size(); i++) {
 		for (int j = 0; j < screen[i].size(); j++) {
 			if (screen[i][j] == Black)
-				cout << “O”;
+				cout << "0";
 			else
-				cout << “ “;
+				cout << " ";
 		}
 		cout << endl;
 	}
