@@ -69,15 +69,14 @@ void printScreen(vector<vector<pixelStateT>> & screen) {
 }
 
 void fillRegion(pointT pt, vector<vector<pixelStateT>> & screen) {
-	cout << "At " << pt.row << ", " << pt.col << endl;
 	if (screen[pt.row][pt.col] != Black) {
 		screen[pt.row][pt.col] = Black;
 		pointT upPt;
-		upPt.row = pt.row + 1;
+		upPt.row = pt.row - 1;
 		upPt.col = pt.col;
 		fillRegion(upPt, screen);
 		pointT downPt;
-		downPt.row = pt.row - 1;
+		downPt.row = pt.row + 1;
 		downPt.col = pt.col;
 		fillRegion(downPt, screen);
 		pointT rightPt;
@@ -117,13 +116,13 @@ int main() {
 	cout << 3 << endl;
 	// filling in the wall region of testScreen2
 	pointT wall;
-	wall.row = 12;
-	wall.col = 7;
+	wall.row = 17;
+	wall.col = 4;
 
-	// fillRegion(wall, testScreen2);
+	fillRegion(wall, testScreen2);
 
-	// // displaying the testScreen2 with wall region filled in
-	// printScreen(testScreen2);
+	// displaying the testScreen2 with wall region filled in
+	printScreen(testScreen2);
 		
 	return 0;
 }
