@@ -34,10 +34,25 @@ Cell * convertToList(vector<int> & v) {
 	return head;
 }
 
-Cell * deepCopyList(Cell * list) {
-	Cell * head = new Cell;
-	head->value = 1;
-	head->next = NULL;
+// helper function for deepCopyList
+void deepCopyListHelper(Cell *head, Cell *list) {
+	if (list->next == NULL) {
+		head->value = list->value;
+		head->next = NULL;
+	} else {
+		head->value = list->value;
+		Cell *c = new Cell;
+		head->next = c;
+		deepCopyListHelper(c, list->next);
+	}
+}
+
+// helper function for appendList
+Cell * deepCopyList(Cell *list) {
+	Cell *head = new Cell;
+
+	deepCopyListHelper(head, list);
+	
 	return head;
 }
 
