@@ -1,0 +1,21 @@
+Problem 3: Function Pointers and Templates
+a) Write a generic function FindMax that searches a vector to find the largest element and
+returns it. The two arguments to the function are the vector and a comparison function.
+The comparison function should take two elements and return an integer that is negative
+if the first is less than the second, zero if the two are equal, and positive otherwise. The
+second parameter should be optional, if not given, the default comparison of built-in
+relational operators is used. Your function may assume that the vector has at least one
+element. FindMax should be written as a template and must work for vectors of any type.
+b) Add the necessary code below to print the name of the safest car from the vector. The
+safest car is the one with the most airbags; among cars with the same number of airbags,
+the heavier car is safer. You should use the FindMax function from part a.
+struct Car {
+ string name;
+ int weight;
+ int numAirbags;
+};
+int main()
+{
+ Vector<Car> cars;
+ // assume variables have been initialized here
+ // you are to add code to get safest car from array using FindMax
