@@ -1,0 +1,1 @@
+Problems 3 and 5 in this problem set are conceptual and ask for written answers instead of code, so I will not include them here (for now). Problem 2 requires a Maze library from the reader for this course, which I could not find. Judging from the question details, I assume that the correct answer for problem 2 would be an implementation of breadth-first search.
