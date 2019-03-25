@@ -25,7 +25,7 @@ int compareCar(Car a, Car b) {
 }
 
 template<typename Type>
-Type findMax(vector<Type> a, int cmp(Type a, Type b)) {
+Type findMax(vector<Type> & a, int cmp(Type a, Type b)) {
 	Type max = a[0];
 	for (int i = 1; i < a.size(); i++) {
 		if (cmp(max, a[i]) == -1)
