@@ -1,0 +1,30 @@
+Problem 1: Filling a Region
+Most drawing programs for personal computers make it possible to fill an enclosed
+region on the screen with a solid color. Typically, you invoke this operation by selecting
+a paint-bucket tool and then clicking the mouse, with the cursor somewhere in your
+drawing. When you do, the paint spreads to every part of the picture it can reach without
+going through a line.
+For example, suppose you have just drawn the following picture of a house:
+If you select the paint bucket and click inside the door, the drawing program fills the area
+bounded by the door frame as shown at the left side of the following diagram. If you
+instead click somewhere on the front wall of the house, the program fills the entire wall
+space except for the windows and doors, as shown on the right:
+
+In order to understand how this process works, it is important to understand that the
+screen of the computer is actually broken down into an array of tiny dots called pixels.
+On a monochrome display, pixels can be either white or black. The paint-fill operation
+consists of painting black the starting pixel (i.e., the pixel you click while using the paintbucket tool) along with any pixels connected to that starting point by an unbroken chain
+of white pixels. Thus, the patterns of pixels on the screen representing the preceding two
+diagrams would look as shown below:
+
+Write a program that simulates the operation of the paint-bucket tool. To simplify the
+problem, assume that you have access to the enumerated type
+enum pixelStateT { White, Black };
+The type pointT is defined as follows:
+struct pointT {
+ int row, col;
+};
+A Grid<pixelStateT> will be used to represent the screen.
+Your task in this problem is therefore to write a function
+void FillRegion(pointT pt, Grid<pixelStateT> &screen);
+that fills black into all white pixels reachable from the point pt

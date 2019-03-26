@@ -1,0 +1,12 @@
+Problem 4: Linked List Warmup
+Write the following linked list functions. Provide both iterative and a recursive
+forumlations. Cell is defined as follows:
+struct Cell {
+Cell *next;
+int value;
+};
+a) Write a function ConvertToList which takes in a Vector of ints and converts it into a
+linked list. Assume the Vector has at least one element in it.
+Cell * ConvertToList(Vector<int> vector)
+b) Write a function which sums the values of a linked list.
+int SumList(Cell *list)
