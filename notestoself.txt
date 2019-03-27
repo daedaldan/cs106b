@@ -1,0 +1,4 @@
+- revisit 4.1
+- revisit 6.1
+- revisit 6.3, did not actually finish
+- revisit 6.4, did not actually finish

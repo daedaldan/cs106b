@@ -12,6 +12,9 @@
 		841D0F88224ACD2D00E15943 /* linked_list_warmup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841D0F6D224ACCFB00E15943 /* linked_list_warmup.cpp */; };
 		841D0F94224ACD7300E15943 /* filling_a_region.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841D0F72224ACCFB00E15943 /* filling_a_region.cpp */; };
 		841D4B9E22341D59009B4D5B /* set_comparison_callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841D4B9222341D48009B4D5B /* set_comparison_callback.cpp */; };
+		843F6BA6224C10AE00766BD2 /* filter_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84BE8023224ACEE0003BBD24 /* filter_queue.cpp */; };
+		843F6BAB224C113F00766BD2 /* safest_car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843F6BAA224C113F00766BD2 /* safest_car.cpp */; };
+		843F6BBB224C116500766BD2 /* rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 843F6BAF224C115000766BD2 /* rectangle.cpp */; };
 		8442EB8A222761AB008BF7F9 /* count_letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8442EB89222761AB008BF7F9 /* count_letters.cpp */; };
 		8458530D223C2FCC0039DC02 /* list_mnemonics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84585300223C2F2D0039DC02 /* list_mnemonics.cpp */; };
 		84639D5922399363002D53D8 /* old_fashioned_measuring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84639D4D22399354002D53D8 /* old_fashioned_measuring.cpp */; };
@@ -65,6 +68,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		841D4B9522341D53009B4D5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		843F6BB2224C116300766BD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -243,6 +255,12 @@
 		841D4B9722341D53009B4D5B /* Set Comparison Callback */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Set Comparison Callback"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841D4B9F22341D97009B4D5B /* set_comparison_callback.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = set_comparison_callback.txt; sourceTree = "<group>"; };
 		841D4BA122342B53009B4D5B /* mapping_points_to_cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapping_points_to_cities.txt; sourceTree = "<group>"; };
+		843F6BA7224C110A00766BD2 /* notestoself.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notestoself.txt; sourceTree = "<group>"; };
+		843F6BAA224C113F00766BD2 /* safest_car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = safest_car.cpp; sourceTree = "<group>"; };
+		843F6BAD224C115000766BD2 /* rectangle.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rectangle.txt; sourceTree = "<group>"; };
+		843F6BAE224C115000766BD2 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		843F6BAF224C115000766BD2 /* rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle.cpp; sourceTree = "<group>"; };
+		843F6BB4224C116300766BD2 /* Rectangle Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Rectangle Class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442EB87222761AB008BF7F9 /* Count Letters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Count Letters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442EB89222761AB008BF7F9 /* count_letters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count_letters.cpp; sourceTree = "<group>"; };
 		8442EB902227621C008BF7F9 /* count_letters.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = count_letters.txt; sourceTree = "<group>"; };
@@ -325,6 +343,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		841D4B9422341D53009B4D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843F6BB1224C116300766BD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -554,6 +579,7 @@
 		841D0F76224ACD0700E15943 /* Section Assignment 6 */ = {
 			isa = PBXGroup;
 			children = (
+				843F6BAC224C115000766BD2 /* Rectangle Class */,
 				841D0F7B224ACD0700E15943 /* Filter Queue */,
 				841D0F7C224ACD0700E15943 /* Safest Car */,
 			);
@@ -573,6 +599,7 @@
 		841D0F7C224ACD0700E15943 /* Safest Car */ = {
 			isa = PBXGroup;
 			children = (
+				843F6BAA224C113F00766BD2 /* safest_car.cpp */,
 				84BE8022224ACECC003BBD24 /* safest_car.txt */,
 			);
 			path = "Safest Car";
@@ -608,6 +635,16 @@
 				841D4BA122342B53009B4D5B /* mapping_points_to_cities.txt */,
 			);
 			path = "Mapping Points to Cities";
+			sourceTree = "<group>";
+		};
+		843F6BAC224C115000766BD2 /* Rectangle Class */ = {
+			isa = PBXGroup;
+			children = (
+				843F6BAF224C115000766BD2 /* rectangle.cpp */,
+				843F6BAE224C115000766BD2 /* test.cpp */,
+				843F6BAD224C115000766BD2 /* rectangle.txt */,
+			);
+			path = "Rectangle Class";
 			sourceTree = "<group>";
 		};
 		8442EB88222761AB008BF7F9 /* Count Letters */ = {
@@ -697,6 +734,7 @@
 				841D0F75224ACD0100E15943 /* Section Assignment 5 */,
 				841D0F76224ACD0700E15943 /* Section Assignment 6 */,
 				848BDC83221F59590009F692 /* Products */,
+				843F6BA7224C110A00766BD2 /* notestoself.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -724,6 +762,7 @@
 				84BE8004224ACE6E003BBD24 /* Appending Linked Lists */,
 				84BE8010224ACE8F003BBD24 /* Filter Queue */,
 				84BE801B224ACE96003BBD24 /* Safest Car */,
+				843F6BB4224C116300766BD2 /* Rectangle Class */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -870,6 +909,23 @@
 			name = "Set Comparison Callback";
 			productName = "Set Comparison Callback";
 			productReference = 841D4B9722341D53009B4D5B /* Set Comparison Callback */;
+			productType = "com.apple.product-type.tool";
+		};
+		843F6BB3224C116300766BD2 /* Rectangle Class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843F6BB8224C116400766BD2 /* Build configuration list for PBXNativeTarget "Rectangle Class" */;
+			buildPhases = (
+				843F6BB0224C116300766BD2 /* Sources */,
+				843F6BB1224C116300766BD2 /* Frameworks */,
+				843F6BB2224C116300766BD2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rectangle Class";
+			productName = "Rectangle Class";
+			productReference = 843F6BB4224C116300766BD2 /* Rectangle Class */;
 			productType = "com.apple.product-type.tool";
 		};
 		8442EB86222761AB008BF7F9 /* Count Letters */ = {
@@ -1168,6 +1224,9 @@
 					841D4B9622341D53009B4D5B = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					843F6BB3224C116300766BD2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8442EB86222761AB008BF7F9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1251,6 +1310,7 @@
 				84BE8003224ACE6E003BBD24 /* Appending Linked Lists */,
 				84BE800F224ACE8F003BBD24 /* Filter Queue */,
 				84BE801A224ACE96003BBD24 /* Safest Car */,
+				843F6BB3224C116300766BD2 /* Rectangle Class */,
 			);
 		};
 /* End PBXProject section */
@@ -1293,6 +1353,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				841D4B9E22341D59009B4D5B /* set_comparison_callback.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843F6BB0224C116300766BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843F6BBB224C116500766BD2 /* rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1371,6 +1439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843F6BA6224C10AE00766BD2 /* filter_queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1378,6 +1447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843F6BAB224C113F00766BD2 /* safest_car.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1506,6 +1576,24 @@
 			name = Debug;
 		};
 		841D4B9D22341D53009B4D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		843F6BB9224C116400766BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ5W88TD64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843F6BBA224C116400766BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1957,6 +2045,15 @@
 			buildConfigurations = (
 				841D4B9C22341D53009B4D5B /* Debug */,
 				841D4B9D22341D53009B4D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843F6BB8224C116400766BD2 /* Build configuration list for PBXNativeTarget "Rectangle Class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843F6BB9224C116400766BD2 /* Debug */,
+				843F6BBA224C116400766BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
