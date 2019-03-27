@@ -7,7 +7,7 @@
 		<key>Appending Linked Lists.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Cannonballs.xcscheme_^#shared#^_</key>
 		<dict>
@@ -52,7 +52,7 @@
 		<key>Filter Queue.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Greatest Common Divisor.xcscheme_^#shared#^_</key>
 		<dict>
@@ -87,7 +87,12 @@
 		<key>Rectangle Class.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>18</integer>
+		</dict>
+		<key>Remove Duplicates.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 		<key>Reverse Queue.xcscheme_^#shared#^_</key>
 		<dict>
@@ -102,7 +107,7 @@
 		<key>Safest Car.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>21</integer>
 		</dict>
 		<key>Set Comparison Callback.xcscheme_^#shared#^_</key>
 		<dict>
