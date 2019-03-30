@@ -1,0 +1,15 @@
+Problem 1: Client-side vs. Implementation-side
+Consider a basic Stack class built on top of a Vector:
+template <typename Type>
+class Stack {
+public:
+Stack();
+~Stack();
+void push(Type elem);
+Type pop();
+bool isEmpty();
+private:
+Vector<Type> elems;
+}
+a) Say we as the implementers want to add a method that will reverse the elements that are currently in the Stack. How can we do it?
+b) Now write another Reverse function, this time as a client of the stack class.
