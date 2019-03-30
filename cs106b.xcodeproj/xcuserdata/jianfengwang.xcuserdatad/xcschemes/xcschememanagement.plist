@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Mob Template Class.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>Most Frequent Character.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

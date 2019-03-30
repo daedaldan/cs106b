@@ -1,0 +1,27 @@
+Problem 2: Template Class Conversion
+A Mob is a special kind of queue; instead of dequeing the element that has been in the queue the longest, it dequeues a randomly selected element from anywhere in the queue. Suppose Mob is defined (partially) as follows:
+(Mob.h):
+class Mob {
+public:
+Mob();
+void enqueue(int newElem);
+int dequeue();
+int size();
+private:
+Vector<int> elems;
+};
+(Mob.cpp):
+void Mob::enqueue(int newElem)
+{
+elems.add(newElem);
+}
+int Mob::dequeue()
+{
+int elemNum = RandomInteger(0, elems.size()-1);
+int value = elems[elemNum];
+elems.removeAt(elemNum);
+return value;
+}
+What would you need to do to change this version of Mob (which stores ints) into a templatized version? Rewrite the above code to match this version, and describe anything else you would need to do to get it running.
+
+* Note: The code in the .cpp file is copied and pasted from the problem details and uses the Stanford C++ Libraries, so it will not compile if built and run without modifications. *
