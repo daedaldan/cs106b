@@ -315,6 +315,8 @@
 		8420F092224FF0D50045D50B /* unstutter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unstutter.cpp; sourceTree = "<group>"; };
 		8420F093224FF0DF0045D50B /* unstutter.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = unstutter.txt; sourceTree = "<group>"; };
 		8420F098224FF14B0045D50B /* Unstutter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Unstutter; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E114F22511BA8004834F4 /* note.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = note.txt; sourceTree = "<group>"; };
+		842E115022511BE1004834F4 /* note.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = note.txt; sourceTree = "<group>"; };
 		843F6BA7224C110A00766BD2 /* notestoself.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notestoself.txt; sourceTree = "<group>"; };
 		843F6BAA224C113F00766BD2 /* safest_car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = safest_car.cpp; sourceTree = "<group>"; };
 		843F6BAD224C115000766BD2 /* rectangle.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rectangle.txt; sourceTree = "<group>"; };
@@ -681,6 +683,7 @@
 		841D0F76224ACD0700E15943 /* Section Assignment 6 */ = {
 			isa = PBXGroup;
 			children = (
+				842E114F22511BA8004834F4 /* note.txt */,
 				843F6BAC224C115000766BD2 /* Rectangle Class */,
 				841D0F7B224ACD0700E15943 /* Filter Queue */,
 				841D0F7C224ACD0700E15943 /* Safest Car */,
@@ -793,6 +796,7 @@
 				8420F073224FEC900045D50B /* Mob Template Class */,
 				8420F082224FEF0E0045D50B /* Stutter */,
 				8420F091224FF0BB0045D50B /* Unstutter */,
+				842E115022511BE1004834F4 /* note.txt */,
 			);
 			path = "Section Assignment 7";
 			sourceTree = "<group>";
