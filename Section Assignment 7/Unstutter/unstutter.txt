@@ -1,0 +1,2 @@
+Problem 6: RemoveDuplicates (a.k.a. Unstutter)
+Write a function RemoveDuplicates that given a linked list will remove any neighboring duplicates found in the list. If the incoming list is (5 5 22 37 89 89 15 15 22) the function will destructively modify the list to contain (5 22 37 89 15 22). Don't worry about handling duplicate sequences longer than 2 or duplicates that aren't right next to each other in the list.
