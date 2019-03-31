@@ -1,0 +1,4 @@
+Problem 4: TrimLeaves
+a) Write a function TrimLeaves(nodeT * & tree), which will take a binary tree and remove all of its leaves. Thus, given the following tree:
+The function will produce the following tree:
+b) Note that the prototype of TrimLeaves as given passes tree by reference. What would happen if it was instead passed by value?

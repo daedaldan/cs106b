@@ -7,5 +7,5 @@
 - try to figure out why 7.4 duplicates a cell at the end, understand the code
 
 - check all solutions with the answer key and correct mistakes
-- complete all written/conceptual problems
+- complete all written/conceptual problems and sub-problems
 - edit printList and convertToList functions to handle empty vectors
