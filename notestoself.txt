@@ -5,7 +5,5 @@
 - revisit 7.1, did not actually finish
 - revisit 7.2 and do written answer portion
 - try to figure out why 7.4 duplicates a cell at the end, understand the code
-
-- check all solutions with the answer key and correct mistakes
-- complete all written/conceptual problems and sub-problems
+- revisit 8.5
 - edit printList and convertToList functions to handle empty vectors
