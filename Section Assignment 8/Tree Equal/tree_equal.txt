@@ -1,0 +1,2 @@
+Problem 3: Tree Equal
+Write a function which takes two binary trees of type nodeT* as defined above and returns a boolean value which indicates whether the two trees are equal (i.e. have the same structure and values).
