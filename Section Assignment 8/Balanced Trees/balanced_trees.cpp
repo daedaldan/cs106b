@@ -1,4 +1,4 @@
-// CS106B: Programming Abstractions Assignment 8 Problem 4
+// CS106B: Programming Abstractions Assignment 8 Problem 5
 
 #include <iostream>
 
@@ -14,8 +14,12 @@ void printBinaryTree(nodeT * tree) {
     
 }
 
-void trimLeaves(nodeT * & tree) {
+int treeHeight(nodeT * & tree) {
+    
+}
 
+bool isBalanced(nodeT * & tree) {
+    
 }
 
 int main() {

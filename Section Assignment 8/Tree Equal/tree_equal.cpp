@@ -10,7 +10,7 @@ struct nodeT {
     nodeT * right;
 };
 
-void printBinaryTree(nodeT * root) {
+void printBinaryTree(nodeT * tree) {
     
 }
 

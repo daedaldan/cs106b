@@ -333,6 +333,8 @@
 		842E116222511D13004834F4 /* tree_equal.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tree_equal.txt; sourceTree = "<group>"; };
 		842E116422511F27004834F4 /* trim_leaves.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trim_leaves.cpp; sourceTree = "<group>"; };
 		842E116522511F39004834F4 /* trim_leaves.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = trim_leaves.txt; sourceTree = "<group>"; };
+		842E116722511FD4004834F4 /* balanced_trees.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = balanced_trees.txt; sourceTree = "<group>"; };
+		842E116822511FE0004834F4 /* balanced_trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balanced_trees.cpp; sourceTree = "<group>"; };
 		843F6BA7224C110A00766BD2 /* notestoself.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notestoself.txt; sourceTree = "<group>"; };
 		843F6BAA224C113F00766BD2 /* safest_car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = safest_car.cpp; sourceTree = "<group>"; };
 		843F6BAD224C115000766BD2 /* rectangle.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rectangle.txt; sourceTree = "<group>"; };
@@ -799,6 +801,7 @@
 				842E115322511C4C004834F4 /* note.txt */,
 				842E115422511CD3004834F4 /* Tree Equal */,
 				842E116322511F12004834F4 /* Trim Leaves */,
+				842E116622511FB8004834F4 /* Balanced Trees */,
 			);
 			path = "Section Assignment 8";
 			sourceTree = "<group>";
@@ -826,6 +829,15 @@
 				842E116522511F39004834F4 /* trim_leaves.txt */,
 			);
 			path = "Trim Leaves";
+			sourceTree = "<group>";
+		};
+		842E116622511FB8004834F4 /* Balanced Trees */ = {
+			isa = PBXGroup;
+			children = (
+				842E116822511FE0004834F4 /* balanced_trees.cpp */,
+				842E116722511FD4004834F4 /* balanced_trees.txt */,
+			);
+			path = "Balanced Trees";
 			sourceTree = "<group>";
 		};
 		843F6BAC224C115000766BD2 /* Rectangle Class */ = {
