@@ -1,0 +1,30 @@
+// CS106B: Programming Abstractions Assignment 9 Problem 3
+
+bool isCyclicGraphHelper(nodeT start, int pathLength, vector<nodeT> visited) {
+    // return true if the node has already been visited and is part of a cycle
+    if (start is in visited && pathLength > 2) 
+        return true;
+
+    // recursively explore neighboring nodes
+    for (arcT * in start.connected) {
+        if (arcT->start == start) {
+            visited.push_back(start);
+            isCyclicGraphHelper(arcT->end, pathLength + 1, visited);
+        }
+    }
+
+    // return false if all paths from start have been exhausted and no cycles have been found
+    return false;
+}
+
+bool isCyclicGraph(graphT & graph) {
+    // explore all possible paths in graph by calling helper function from each node
+    for (nodeT in graph) {
+        vector<nodeT *> visited;
+        if (isCyclicGraphHelper(nodeT, 0, visited))
+            return true;
+    }
+
+    // return false if no cycles have been found
+    return false;
+}
