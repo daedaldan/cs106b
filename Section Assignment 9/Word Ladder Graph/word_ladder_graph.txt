@@ -1,0 +1,16 @@
+Problem 4: Graph Construction
+A Word Ladder is a path of words between two words. More specifically, given two words you want to find a way to turn one into the other one letter at a time where each
+ 
+intermediate also is a word. For example, a word ladder between cat and run is cat -> cut - > rut -> run. cat -> cut ->cun -> run is not a valid word ladder, because cun is not a word.
+a) Your first task is to convert the word ladder problem into a graph search problem. More specifically, you should write a function:
+      void ConstructGraph(graphT & graph, Lexicon & lex)
+where graph is empty and lex has been initialized to hold all words. When ConstructGraph has completed, graph should be constructed so that each node is a word and each edge denotes that the words can be turned into each other by changing a single lettter. With this structure, finding the shortest word ladder between two words is equivalent to finding the shortest path between the two corresponding nodes.
+For the purposes of this problem, assume that only five-letter words are allowable. Also assume that the lexicon only contains 5 letter words.
+Hint: The Lexicon has a function called mapAll which allows you to call a function of your choice on every word in the Lexicon. It also allows you to pass in an additional argument to the function if you have need of other data structures. The general form of your callback function should take as arguments a string and your chosen data type and should return nothing (e.g. "void foo(string word, myType & secondArg)"). You can call mapAll like this: "lex.mapAll<myType>(foo, secondArg)"; this will call foo on every word in the Lexicon and will pass secondArg into the function call as well. This may be useful for setting up your nodes.
+For parts b and c, you will use versions of breadth-first search and/or depth first search to solve the problems. For each problem, consider which search type to use and why.
+b) Next, write a function
+Stack<nodeT *> FindShortestLaddder(graphT & graph, nodeT start,
+nodeT end)
+which finds the shortest word ladder between the start word and the end word. c) Finally write a function:
+      Stack<nodeT *> FindLongestLadder(graphT & graph, nodeT * word)
+which, given a graph created by your function in part a finds the longest word ladder in the graph starting from the given word.
