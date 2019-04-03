@@ -1,0 +1,25 @@
+// CS106B: Programming Abstractions Assignment 9 Problem 4
+
+bool isNeighbor();
+
+void addWord(string word, graphT & graph) {
+    nodeT * myWord = new nodeT;
+    myWord.name = word;
+    for (nodeT in graph.allNodes) {
+       if (isNeighbor(myWord, nodeT) {
+        graph.allNodes.add(myWord);
+        arcT * connection1 = new arcT;
+        connection1->start = myWord;
+        connection1->end = nodeT;
+        arcT * connection2 = new arcT;
+        connection2->start = nodeT;
+        connection2->end = myWord;
+        myWord->connected.add(connection1);
+        myWord->connected.add(connection2);
+        nodeT->connected = union(nodeT->connected, myWord->connected);
+    }
+}
+
+void constructGraph(graphT & graph, Lexicon & lex) {
+    lex.mapAll<graphT>(addWord, graph);
+}
