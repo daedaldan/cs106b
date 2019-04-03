@@ -1,0 +1,4 @@
+Problem 3: Finding Graph Cycles
+A directed graph is considered to be cyclic if we can find a path through a graph from any node back to the same node (the definition is slightly different for undirected graphs). Using our graph traversal skills, we can find out whether an entire graph contains a cycle. Write a function:
+      bool IsCyclicGraph(graphT & graph)
+that determines whether a given directed graph is cyclic (true) or acyclic (false). (Hint: It may be useful to keep track of which nodes have already been visited.)
