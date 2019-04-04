@@ -1,4 +1,5 @@
 - complete written problems
+- finish 4.2
 - finish Assignment 9
 - revisit 4.1
 - revisit 6.1
