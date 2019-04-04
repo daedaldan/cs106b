@@ -1,3 +1,5 @@
+- complete written problems
+- finish Assignment 9
 - revisit 4.1
 - revisit 6.1
 - revisit 6.3, did not actually finish
@@ -7,3 +9,5 @@
 - try to figure out why 7.4 duplicates a cell at the end, understand the code
 - revisit 8.5
 - edit printList and convertToList functions to handle empty vectors
+- clean up and update GitHub repo
+- check all assignments
